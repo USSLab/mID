@@ -29,10 +29,10 @@ Moiré patterns or Moiré fringes are interference patterns created when opaque 
 
 We conduct experiments under various settings and collect over 5000 photos with 5 display devices and 6 smartphones over 3 months.
 
-• mID achieves an average BER of 0.6% and an average NER of 4.0%, which demonstrates promises towards
+* mID achieves an average BER of 0.6% and an average NER of 4.0%, which demonstrates promises towards
 screen photo forensics.
-• mID performs well with little influence from the type of display devices, cameras, IDs, and ambient lights.
-• mID performs well at a shooting distance of (60cm;80cm) and a shooting angle of (-20°;20°),
+* mID performs well with little influence from the type of display devices, cameras, IDs, and ambient lights.
+* mID performs well at a shooting distance of (60cm;80cm) and a shooting angle of (-20°;20°),
 which are within the possible attack distances and angles adopted by adversaries as suggested by the theoretical calculation.
 
 <img src="./images/eva_total.png" alt="moire" width="600px" />
