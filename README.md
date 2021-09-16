@@ -24,6 +24,7 @@ Moiré patterns or Moiré fringes are interference patterns created when opaque 
 ## Overview of mID
 
 <img src="./images/overview.png" alt="overview" width="600px" />
+
 mID scheme consists of encoding and decoding phases with four modules: (a) mID generation, (b) mID embedding, (c) mID extraction, and (d) mID decoding, as shown in the figure.
 
 In the encoding phase, the mID Generation module first creates the modification that will be applied to the original display based on the IDs, and the mID Embedding module will find the best areas to apply such modification. The design goal of the encoding phase is that the modification cannot be observed visually by users but will be captured by cameras and form a seemingly natural Moiré pattern, i.e., mID. The mID Generation consists of (a) mID Framing that forms a proper frame, (b) Grating Generation that helps to create Moiré patterns, and (c) ID Encoding that adds the information of IDs to the Moiré patterns. Note that designing grating is similar to finding the carrier signals and the ID encoding is similar to finding the modulation scheme in communication. 
