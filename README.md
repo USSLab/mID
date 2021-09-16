@@ -5,7 +5,7 @@ noises introduced during photographing. To identify the leakage source despite s
 
 ## How does mID work?
 
-<img src="./images/scene.png" alt="attack" style="zoom: 67%;" />
+<img src="./images/scene.png" alt="attack" style="zoom: 40%;" />
 
 # Background
 
@@ -13,7 +13,7 @@ noises introduced during photographing. To identify the leakage source despite s
 
 Moiré patterns or Moiré fringes are interference patterns created when opaque ruled patterns with transparent gaps are overlaid.
 
-![moire](./images/moirepattern.png)
+<img src="./images/moirepattern.png" alt="overview" style="zoom:40%;" />
 
 ## Threat Model
 
@@ -23,7 +23,7 @@ Moiré patterns or Moiré fringes are interference patterns created when opaque 
 
 ## Overview of mID
 
-<img src="./images/overview.png" alt="overview" style="zoom:67%;" />
+<img src="./images/overview.png" alt="overview" style="zoom:40%;" />
 
 # Performance
 
@@ -51,6 +51,7 @@ which are within the possible attack distances and angles adopted by adversaries
 # Contact
 * Prof. Wenyuan Xu (<wyxu@zju.edu.cn>)
 * Prof. Xiaoyu Ji (<xji@zju.edu.cn>)
+* Dr. Yushi Cheng (yushicheng@zju.edu.cn)
 
 # Powered by
 
