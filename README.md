@@ -5,7 +5,7 @@ noises introduced during photographing. To identify the leakage source despite s
 
 ## How does mID work?
 
-<img src="./images/scene.png" alt="attack" style="zoom: 40%;" />
+<img src="./images/scene.png" alt="attack" width="200px" />
 
 # Background
 
@@ -23,7 +23,7 @@ Moiré patterns or Moiré fringes are interference patterns created when opaque 
 
 ## Overview of mID
 
-<img src="./images/overview.png" alt="overview" style="zoom:40%;" />
+<img src="./images/overview.png" alt="overview" width="200px" />
 
 # Performance
 
@@ -35,7 +35,7 @@ screen photo forensics.
 • mID performs well at a shooting distance of (60cm;80cm) and a shooting angle of (-20°;20°),
 which are within the possible attack distances and angles adopted by adversaries as suggested by the theoretical calculation.
 
-<img src="./images/eva_total.png" alt="moire" style="zoom: 67%;" />
+<img src="./images/eva_total.png" alt="moire" width="200px" />
 
 # Citation
 
