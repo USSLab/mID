@@ -6,6 +6,7 @@ noises introduced during photographing. To identify the leakage source despite s
 ## How does mID work?
 
 <img src="./images/scene.png" alt="attack" width="600px" />
+Once an adversary logs into a computer or an application (e.g., an email system) with her account, mID will modify the displayed content slightly based on her identity (ID), such that when she takes pictures of the screen, the modification will create Moiré patterns in the photos. Finally, the embedded Moiré patterns are decoded to obtain the ID.
 
 # Background
 
@@ -14,6 +15,7 @@ noises introduced during photographing. To identify the leakage source despite s
 Moiré patterns or Moiré fringes are interference patterns created when opaque ruled patterns with transparent gaps are overlaid.
 
 <img src="./images/moirepattern.png" alt="overview" width="600px" />
+Moiré patterns or Moiré fringes are interference patterns created when opaque ruled patterns with transparent gaps are overlaid. Digital cameras often cause Moiré patterns when taking pictures of digital screens, e.g., TV screens or liquid-crystal displays (LCDs). The nonlinearity arises from the interference of digital screens and the Color Filter Array (CFA) on the camera image sensors, as shown in the Figure.
 
 ## Threat Model
 
