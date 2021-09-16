@@ -5,7 +5,7 @@ noises introduced during photographing. To identify the leakage source despite s
 
 ## How does mID work?
 
-<img src="./images/scene.png" alt="attack" width="200px" />
+<img src="./images/scene.png" alt="attack" width="600px" />
 
 # Background
 
@@ -13,7 +13,7 @@ noises introduced during photographing. To identify the leakage source despite s
 
 Moiré patterns or Moiré fringes are interference patterns created when opaque ruled patterns with transparent gaps are overlaid.
 
-<img src="./images/moirepattern.png" alt="overview" style="zoom:40%;" />
+<img src="./images/moirepattern.png" alt="overview" width="600px" />
 
 ## Threat Model
 
@@ -23,7 +23,7 @@ Moiré patterns or Moiré fringes are interference patterns created when opaque 
 
 ## Overview of mID
 
-<img src="./images/overview.png" alt="overview" width="200px" />
+<img src="./images/overview.png" alt="overview" width="600px" />
 
 # Performance
 
@@ -35,7 +35,7 @@ screen photo forensics.
 • mID performs well at a shooting distance of (60cm;80cm) and a shooting angle of (-20°;20°),
 which are within the possible attack distances and angles adopted by adversaries as suggested by the theoretical calculation.
 
-<img src="./images/eva_total.png" alt="moire" width="200px" />
+<img src="./images/eva_total.png" alt="moire" width="600px" />
 
 # Citation
 
