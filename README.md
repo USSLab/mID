@@ -24,6 +24,13 @@ Moiré patterns or Moiré fringes are interference patterns created when opaque 
 ## Overview of mID
 
 <img src="./images/overview.png" alt="overview" width="600px" />
+mID scheme consists of encoding and decoding phases with four modules: (a) mID generation, (b) mID embedding, (c) mID extraction, and (d) mID decoding, as shown in the figure.
+
+In the encoding phase, the mID Generation module first creates the modification that will be applied to the original display based on the IDs, and the mID Embedding module will find the best areas to apply such modification. The design goal of the encoding phase is that the modification cannot be observed visually by users but will be captured by cameras and form a seemingly natural Moiré pattern, i.e., mID. The mID Generation consists of (a) mID Framing that forms a proper frame, (b) Grating Generation that helps to create Moiré patterns, and (c) ID Encoding that adds the information of IDs to the Moiré patterns. Note that designing grating is similar to finding the carrier signals and the ID encoding is similar to finding the modulation scheme in communication. 
+
+To generate Moiré patterns, the screen pixels are manipulated to form a display grating, which has a periodic structure and may appear as stripes. To make the patterns looks as if they are naturally generated, the display grating is designed to be vertical since the LCD panel has a vertical grating structure. Second, to encode the mID into the display grating without noticed by users, we propose a discretized bipolar non-returnto-zero encoding method, which manipulates the intensity levels of the generated Moiré patterns to represent information. As humans perceive light and color in a non-linear manner, we correct the luminance difference caused by the discretized encoding to ensure user visual uniformity. Third, to embed the generated gratings into the screen and maximize their possibility of being captured in the photos, we automatically analyze the current page of the screen and search for suitable regions for embedding.
+
+In the decoding phase, for a given screen photo that contains embedded mID, the mID Extraction module tries to remove the camera distortion with image rectification and extracts the regions of Moiré patterns, i.e., Moiré areas, with window scanning. Then, we recover the embedded identity numbers via the mID Decoding module, in which we first transform the Moiré areas into the HSV (hue, saturation, value) color space, then perform saturation balance and enlargement for image pre-processing, and finally recover mID via k-means clustering with the assistance of check codes.
 
 # Performance
 
